@@ -18,6 +18,7 @@ public class Testing {
 	public static String url = null;
 	public static Properties propData = new Properties();
 	public static InputStream inputData = null;
+	public int a;
 
 	@BeforeSuite
 	public static void setConfig(){
