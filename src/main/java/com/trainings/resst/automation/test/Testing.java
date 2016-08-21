@@ -23,7 +23,7 @@ public class Testing {
 	@BeforeSuite
 	public static void setConfig(){
 		try {
-			inputData = new FileInputStream("D://Trainings//RestAutomation//RestAssuredProject//src//main//java//com//tranings//rest//automation//config//config.properties");//getClass().getClassLoader().getResourceAsStream("D://Trainings//RestAutomation//RestAssuredProject//src//main//java//com//tranings//rest//automation//data//data.properties");
+			inputData = new FileInputStream(".//config//config.properties");//getClass().getClassLoader().getResourceAsStream("D://Trainings//RestAutomation//RestAssuredProject//src//main//java//com//tranings//rest//automation//data//data.properties");
 			propData.load(inputData);
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -34,7 +34,7 @@ public class Testing {
 	@BeforeClass
 	public void getData(){
 		try {
-			inputData = new FileInputStream("D://Trainings//RestAutomation//RestAssuredProject//src//main//java//com//tranings//rest//automation//data//data.properties");//getClass().getClassLoader().getResourceAsStream("D://Trainings//RestAutomation//RestAssuredProject//src//main//java//com//tranings//rest//automation//data//data.properties");
+			inputData = new FileInputStream(".//data//data.properties");//getClass().getClassLoader().getResourceAsStream("D://Trainings//RestAutomation//RestAssuredProject//src//main//java//com//tranings//rest//automation//data//data.properties");
 			propData.load(inputData);
 		} catch (IOException e) {
 			e.printStackTrace();
