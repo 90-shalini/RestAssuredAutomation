@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3551" started-at="2016-08-21T13:41:01Z" finished-at="2016-08-21T13:41:05Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="3551" started-at="2016-08-21T13:41:01Z" finished-at="2016-08-21T13:41:05Z">
+      <class name="com.trainings.resst.automation.test.Testing">
+        <test-method status="PASS" signature="setConfig()[pri:0, instance:com.trainings.resst.automation.test.Testing@1efbd816]" name="setConfig" is-config="true" duration-ms="13" started-at="2016-08-21T19:11:01Z" finished-at="2016-08-21T19:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setConfig -->
+        <test-method status="PASS" signature="getData()[pri:0, instance:com.trainings.resst.automation.test.Testing@1efbd816]" name="getData" is-config="true" duration-ms="1" started-at="2016-08-21T19:11:01Z" finished-at="2016-08-21T19:11:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getData -->
+        <test-method status="PASS" signature="DeleteTestCase()[pri:0, instance:com.trainings.resst.automation.test.Testing@1efbd816]" name="DeleteTestCase" duration-ms="2301" started-at="2016-08-21T19:11:01Z" finished-at="2016-08-21T19:11:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteTestCase -->
+        <test-method status="PASS" signature="GetMessageTestCase()[pri:0, instance:com.trainings.resst.automation.test.Testing@1efbd816]" name="GetMessageTestCase" duration-ms="980" started-at="2016-08-21T19:11:03Z" finished-at="2016-08-21T19:11:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetMessageTestCase -->
+        <test-method status="PASS" signature="PostTestCase()[pri:0, instance:com.trainings.resst.automation.test.Testing@1efbd816]" name="PostTestCase" duration-ms="196" started-at="2016-08-21T19:11:04Z" finished-at="2016-08-21T19:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostTestCase -->
+        <test-method status="PASS" signature="PutTestCase()[pri:0, instance:com.trainings.resst.automation.test.Testing@1efbd816]" name="PutTestCase" duration-ms="39" started-at="2016-08-21T19:11:05Z" finished-at="2016-08-21T19:11:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PutTestCase -->
+      </class> <!-- com.trainings.resst.automation.test.Testing -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
