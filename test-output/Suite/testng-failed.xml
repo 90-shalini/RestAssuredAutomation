@@ -7,7 +7,7 @@
         <methods>
           <include name="setConfig"/>
           <include name="getData"/>
-          <include name="GetMessageTestCase"/>
+          <include name="PostTestCase"/>
         </methods>
       </class> <!-- com.trainings.resst.automation.test.Testing -->
     </classes>
