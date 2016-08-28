@@ -5,7 +5,9 @@
     <classes>
       <class name="com.trainings.resst.automation.test.Testing">
         <methods>
-          <include name="TestCase1"/>
+          <include name="setConfig"/>
+          <include name="getData"/>
+          <include name="DeleteTestCase"/>
         </methods>
       </class> <!-- com.trainings.resst.automation.test.Testing -->
     </classes>

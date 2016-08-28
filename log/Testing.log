@@ -1,0 +1,20 @@
+2016-08-28 17:52:29 INFO  Testing:97 - PostTestCase started:
+2016-08-28 17:52:32 INFO  Testing:100 - Length of json before POST: 2
+2016-08-28 17:52:32 INFO  Testing:114 - Length of json before POST: 3
+2016-08-28 17:52:32 INFO  Testing:116 - PostTestCase completed:
+2016-08-28 17:52:32 INFO  Testing:244 - WrongCredentialValidationTestCase started:
+2016-08-28 17:52:32 INFO  Testing:258 - WrongCredentialValidationTestCase completed.
+2016-08-28 17:52:32 INFO  Testing:68 - GetMessageTestCase started:
+2016-08-28 17:52:33 INFO  Testing:86 - GetMessageTestCase Completed.
+2016-08-28 17:52:33 INFO  Testing:209 - GetAllMessagesTestCase started:
+2016-08-28 17:52:33 INFO  Testing:223 - GetAllMessagesTestCase completed.
+2016-08-28 17:52:33 INFO  Testing:176 - PostJsonAsMapTestCase started:
+2016-08-28 17:52:33 INFO  Testing:182 - Length of json before JSONMAP POST: 3
+2016-08-28 17:52:34 INFO  Testing:195 - Length of json after JSONMAP POST: 4
+2016-08-28 17:52:34 INFO  Testing:197 - PostJsonAsMapTestCase completed.
+2016-08-28 17:52:34 INFO  Testing:127 - PutTestCase started:
+2016-08-28 17:52:34 INFO  Testing:139 - PutTestCase completed.
+2016-08-28 17:52:34 INFO  Testing:150 - DeleteTestCase started:
+2016-08-28 17:52:34 INFO  Testing:152 - Length of json before Delete: 4
+2016-08-28 17:52:34 INFO  Testing:163 - Length of json after Delete: 3
+2016-08-28 17:52:34 INFO  Testing:165 - DeleteTestCase completed.

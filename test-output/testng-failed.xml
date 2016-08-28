@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <test name="Test(failed)">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
       <class name="com.trainings.resst.automation.test.Testing">
         <methods>
           <include name="setConfig"/>
           <include name="getData"/>
-          <include name="PostTestCase"/>
+          <include name="DeleteTestCase"/>
         </methods>
       </class> <!-- com.trainings.resst.automation.test.Testing -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
