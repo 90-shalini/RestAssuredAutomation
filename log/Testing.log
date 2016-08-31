@@ -18,3 +18,10 @@
 2016-08-28 17:52:34 INFO  Testing:152 - Length of json before Delete: 4
 2016-08-28 17:52:34 INFO  Testing:163 - Length of json after Delete: 3
 2016-08-28 17:52:34 INFO  Testing:165 - DeleteTestCase completed.
+2016-08-31 23:24:29 INFO  Testing:97 - PostTestCase started:
+2016-08-31 23:24:52 INFO  Testing:244 - WrongCredentialValidationTestCase started:
+2016-08-31 23:25:13 INFO  Testing:258 - WrongCredentialValidationTestCase completed.
+2016-08-31 23:25:13 INFO  Testing:68 - GetMessageTestCase started:
+2016-08-31 23:25:34 ERROR Testing:84 - Schema Exception Connection timed out: connect
+2016-08-31 23:25:34 INFO  Testing:86 - GetMessageTestCase Completed.
+2016-08-31 23:25:34 INFO  Testing:209 - GetAllMessagesTestCase started:
