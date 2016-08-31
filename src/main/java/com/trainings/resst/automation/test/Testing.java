@@ -68,7 +68,7 @@ public class Testing{
 		log.info("GetMessageTestCase started:");
 		try {
 			given()
-			.auth().preemptive().basic(username, password)
+			.auth().preemptive().basic(username, password)     //Handling authorization
 			.contentType(ContentType.JSON)
 			.pathParam("id", propData.getProperty("idGet"))
 			.expect().body("size()", equalTo(3))
@@ -100,7 +100,7 @@ public class Testing{
 		log.info("Length of json before POST: "+lengthOfJsonbeforePost);
 		 
 		given()
-		.auth().preemptive().basic(username, password)
+		.auth().preemptive().basic(username, password)    		 //Handling authorization
 		.contentType(ContentType.JSON)
 		.body(postData)
 		.when()
@@ -127,7 +127,7 @@ public class Testing{
 		log.info("PutTestCase started:");
 		String putData="{\"author\""+":"+"\""+propData.getProperty("updateAuthor")+"\""+","+"\"content\""+":"+"\""+propData.getProperty("updateContent")+"\""+"}";
 		given()
-		.auth().preemptive().basic(username, password)
+		.auth().preemptive().basic(username, password)					 //Handling authorization
 		.contentType(ContentType.JSON)
 		.pathParam("id", propData.getProperty("idPut"))
 		.body(putData)	        
@@ -151,7 +151,7 @@ public class Testing{
 		int lengthOfJsonbeforeDelete=getCountOfMessages();
 		log.info("Length of json before Delete: "+lengthOfJsonbeforeDelete);
 		given()
-		.auth().preemptive().basic(username, password)
+		.auth().preemptive().basic(username, password)					 //Handling authorization(preemptive), when we expect login from application(not challenged)
 		.contentType(ContentType.JSON)
 		.pathParam("id", propData.getProperty("idDelete"))
 		.when()
