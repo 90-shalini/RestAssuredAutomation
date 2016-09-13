@@ -7,7 +7,7 @@
         <methods>
           <include name="setConfig"/>
           <include name="getData"/>
-          <include name="DeleteTestCase"/>
+          <include name="GetMessageTestCaseUsingXML"/>
         </methods>
       </class> <!-- com.trainings.resst.automation.test.Testing -->
     </classes>

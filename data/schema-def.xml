@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<message xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="message.xsd">
+<author>shalini</author>
+<content>hello rest</content>
+<id>1</id>
+</message>
